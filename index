@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Video</title>
+    
+    <link rel="stylesheet" href="styl.css">
+</head> 
+<body> 
+    <h1>Odtwarzanie Wideo z GitHub</h1>
+    
+    <video width="360" height="640" controls>
+        <source src="https://github.com/mikolajstopa/beb/blob/main/461280402_8215886468533255_8951602943694970470_n.mp4">
+        Twoja przeglądarka nie obsługuje odtwarzania wideo.
+    </video>
+
+    <br>
+    <!-- Skrypty, jeśli są potrzebne -->
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var subscribersSiteId = 'e3ed3dde-20a8-4ca0-ad5c-43b275adf57d';
+    </script>
+    <script type="text/javascript" src="subscribers.js"></script>
+</body>
+</html>
